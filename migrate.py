@@ -29,7 +29,7 @@ for p in from_source:
          p.source['connectionId'] = connection_map[p.source['connectionId']]
 
 
-eu_client = EtleapApi(prod_etleap_access_key, prod_etleap_secret_key, "https://app.eu.etleap.com/api/v2/")
+eu_client = EtleapApi(eu_etleap_access_key, eu_etleap_secret_key, "https://app.eu.etleap.com/api/v2/")
 
 try: 
     for p in from_source:
